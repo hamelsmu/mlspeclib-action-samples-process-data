@@ -28,9 +28,6 @@ inputs:
     description: "Input parameters (need to get from previous step, file or DB)"
     required: false
     default: "foo"
-branding:
-  icon: "chevron-up"
-  color: "blue"
 runs:
   using: "docker"
   image: "Dockerfile"
